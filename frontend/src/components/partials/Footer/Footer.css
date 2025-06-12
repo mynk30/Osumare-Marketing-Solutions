@@ -1,0 +1,142 @@
+.footer {
+  background-color: #fff;
+  padding: 40px 0;
+  border-top: 1px solid #ddd;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.footer-col {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-col-newsletter {
+  flex: 1.5;
+  min-width: 300px;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.footer-col h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+  text-decoration: underline;
+}
+
+.newsletter-input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.newsletter-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.join-btn {
+  background-color: #ff4d4d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  background-color: #e04343;
+}
+
+.newsletter-consent {
+  font-size: 14px;
+  color: #666;
+}
+
+.social-icons a {
+  color: #ff4d4d;
+  font-size: 24px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.bottom-bar {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+}
+
+.bottom-bar p {
+  margin: 0;
+}
+
+.bottom-links a {
+  color: #333;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.bottom-links a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    min-width: 100%;
+  }
+
+  .bottom-bar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bottom-links {
+    margin-top: 10px;
+  }
+
+  .bottom-links a {
+    margin: 0 10px;
+  }
+}

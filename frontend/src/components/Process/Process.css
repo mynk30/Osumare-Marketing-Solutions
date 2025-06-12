@@ -1,0 +1,66 @@
+.process-wrapper {
+    margin-top: 80px; /* Add margin to push content below fixed header */
+}
+
+.card-box {
+    background-color: #efefef;
+    border-radius: 10px;
+    margin: 10px;
+    min-height: 400px; /* Set a minimum height to ensure consistent height */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.card-content {
+    padding: 30px;
+}
+
+.count {
+    font-size: 30px;
+    font-weight: 700;
+    float: right;
+    color: #b3b3b3;
+    padding: 15px 10px;
+}
+
+.card-icon-box {
+    font-size: 17px;
+    background: white;
+    height: 70px;
+    width: fit-content;
+    padding: 6px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-heading {
+    font-size: 18px;
+    font-weight: 800;
+    color: #302e2e;
+}
+
+.heading-lines {
+    margin-top: 5px;
+    display: flex;
+}
+
+.line {
+    height: 8px;
+    background-color: red;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+
+.line-1 {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.line-2 {
+    width: 20px;
+}
+
+.section-heading {
+    text-align: center;
+}
